@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/2af1055674.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p>&#8826; Bokam <span>Vanaja</span> &#8827; </p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>Student</p> -->
+                <h1>Hi, I'm <span>Bokam Vanaja</span><br> Web Development Intern
+                    <br>at<span> Oasisinfobyte Intern</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!----------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="C:\Users\Vanaja\Downloads\myimage.jpg" width="480px" height="450px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Strong in Design and Web Development with intuitive problem-solving skills. Proficient in JAVA, PYTHON, C, JAVASCRIPT, and SQL. Passionate about implementing and launching new projects. Ability to translate business requirements into
+                        technical solutions. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programmer</span><br> Proficient in  PYTHON, C,HTML,CSS,JavaScript.</li>
+                            <li><span>Web Development</span><br>Full stack web developer.</li>
+                             </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development</span><br>Internship at Code Alpha.</li>
+                            <li><span>Machine Learning</span><br>Internship at Bharat Intern.</li>
+                         </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Undergraduation.</li>
+                            <li><span>2021</span><br>Diploma Education.</li>
+                            <li><span>2018</span><br>Secondary School.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------services---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+
+                    <h2>Programmer</h2>
+                    <p>Solutions-driven programmer with a commended performance in modular and object-oriented programming.Well-versed in all phases of the software development lifecycle, with a strong working knowledge of algorithms and data structures.
+                        Capable of customized solutions improving business processes, operations, and profitability.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+
+                    <h2>Web Design</h2>
+                    <p>Experience developing consumer-focused websites using HTML, CSS, and JavaScript. Experience building products for desktop, phone, and mobile app users, meeting the highest standards for web design, user experience, best practices,
+                        usability, and speed. All this work experience combined with my age and motivation has made me work exceedingly well in various fields.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+
+                    <h2>Entrepreneur</h2>
+                    <p>Innovative and performance-driven Entrepreneur with a deep passion for technology and business. Experienced in managing all aspects of business development. Possess the ability to work and remain calm under pressure, excellent leadership
+                        skills, and great time management skills.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------Portfolio--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="C:\Users\Vanaja\Downloads\burger-design-.jpg">
+                    <div class="layer">
+                       <h3>Code Alpha</h3>
+                        <p>Web Development Intern at Code Alpha from 10 June, 2023.</p>
+                        <a href="file:///C:/Users/Vanaja/AppData/Roaming/Microsoft/Windows/Network%20Shortcuts/B.Vanaja.pdf" target="_blank" download><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="C:\Users\Vanaja\Pictures\iris flower image.png">
+                    <div class="layer">
+                        <h3>Bharat Intern</h3>
+                        <p>Currently working as Web Development Intern at Bharat Intern from 07 August, 2023</p>
+                        <a href="C:\Users\Vanaja\Documents\bharat intern .jpg" target="_blank" download><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="C:\Users\Vanaja\Pictures\internshala image.png">
+                    <div class="layer">
+                        <h3>Internshala Trainings</h3>
+                        <p></p>
+                        <a href="file:///C:/Users/Vanaja/Downloads/Web%20Development%20Training%20-%20Certificate%20of%20Completion%20(1).pdf" target="_blank" download><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-----------------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>vanajabokam2002@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+919392599926</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vanaja-bokam/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                         <a href="https://github.com/vanajabokam?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+                         
+                    </div>
+                    <a href="C:\Users\Vanaja\Documents\Resume 17-08.pdf" target="_blank" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Bokam Vanaja All rights reserved! </p>
+            <p>
+                Web Development Internship <br> Task 1 : PortfolioWebsite </p>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemeu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemeu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwMBhZ3pYH7_RyKH_NWlDnDpfV7T09DWIvwUMU80Pw_k00BMIup5PKkrtq9Ijtnz6T_/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, {
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function() {
+                            msg.innerHTML = ""
+                        }, 3000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
